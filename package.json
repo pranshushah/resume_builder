@@ -9,9 +9,8 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-vercel": "1.0.0-next.17",
+		"@sveltejs/adapter-vercel": "1.0.0-next.8",
 		"@sveltejs/adapter-netlify": "1.0.0-next.4",
-		"@sveltejs/adapter-node": "next",
 		"@sveltejs/adapter-static": "1.0.0-next.4",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",

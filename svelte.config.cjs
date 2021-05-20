@@ -1,5 +1,5 @@
 const sveltePreprocess = require('svelte-preprocess');
-const netlify = require('@sveltejs/adapter-static');
+const netlify = require('@sveltejs/adapter-vercel');
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
