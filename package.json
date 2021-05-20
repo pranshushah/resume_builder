@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/kit": "next",
 		"@fontsource/fira-mono": "^4.2.2",
 		"@types/uuid": "^8.3.0",
 		"uuid": "^8.3.2"
