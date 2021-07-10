@@ -19,6 +19,7 @@ module.exports = {
 	},
 	rules: {
 		'no-useless-escape': 'off',
-		'explicit-module-boundary-types': 'off'
+		'explicit-module-boundary-types': 'off',
+		'@typescript-eslint/no-var-requires': 'off'
 	}
 };
