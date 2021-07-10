@@ -184,8 +184,11 @@
 					<h3 class="template1_container__sub_header">Projects :-</h3>
 					<ul class="template1_container__certificate_list">
 						{#each projects as project}
-							<li>
+							<li class="template1_container__link">
 								<p>{project.title}</p>
+								<p class="template1_container__link">
+									<span class="template1_container__link_label">Link : </span>{project.link}
+								</p>
 								<ul class="template1_container__sub_list">
 									{#each project.moreDetails as detail}
 										<li>{detail}</li>
@@ -332,5 +335,12 @@
 		margin: getSpace(1) * 1px 0;
 		height: 8px;
 		background-color: #b9eeeb;
+	}
+	.template1_container__link {
+		margin: getSpace(1) * 1px 0;
+	}
+	.template1_container__link_label {
+		font-weight: 600;
+		margin: 0 getSpace(1) * 1px;
 	}
 </style>
